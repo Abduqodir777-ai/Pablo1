@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#111111">
+    <title>Login | Pablo</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <main class="login-page">
+        <section class="login-card" aria-labelledby="login-title">
+            <a class="login-brand" href="../index.html" aria-label="Pablo bosh sahifasiga qaytish">
+                <img src="../assets/img/photo_2026-03-31_15-49-59.jpg" alt="">
+                <span>Pablo</span>
+            </a>
+
+            <h1 id="login-title">Xush kelibsiz!</h1>
+            <p class="login-intro">Davom etish uchun telefon raqamingiz va parolingizni kiriting.</p>
+
+            <form class="login-form" action="../index.html" method="get">
+                <label for="phone">Telefon raqami</label>
+                <input
+                    id="phone"
+                    type="tel"
+                    autocomplete="tel"
+                    placeholder="+998 90 123 45 67"
+                    required
+                >
+
+                <label for="password">Parol</label>
+                <input
+                    id="password"
+                    type="password"
+                    autocomplete="current-password"
+                    placeholder="Parolingizni kiriting"
+                    required
+                >
+
+                <button class="login-submit" type="submit">Kirish</button>
+            </form>
+
+            <p class="login-notice">Telefon va parol bo‘sh qolmasligi tekshiriladi. Hisobga kirish uchun server hali ulanmagan.</p>
+            <a class="back-link" href="../index.html">Bosh sahifaga qaytish</a>
+        </section>
+    </main>
+</body>
+</html>
